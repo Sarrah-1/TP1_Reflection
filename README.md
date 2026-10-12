@@ -99,28 +99,7 @@ TP1_Reflection/
 
 Avec une implémentation DAO qui retourne `100.0` et une méthode métier qui multiplie cette valeur par deux, la console doit afficher un résultat final égal à `200.0`.
 
-Exemple :
 
-```text
-[CONTAINER] DAO instancié : dao.DaoImpl
-[CONTAINER] Métier instancié : metier.MetierImpl
-[DAO] Recuperation de la valeur
-[METIER] Resultat : 200.0
-Résultats = 200.0
+<img width="901" height="248" alt="image" src="https://github.com/user-attachments/assets/d6640dae-450f-4139-8af0-43938ca315ef" />
 
-Process finished with exit code 0
-```
-
-Les messages exacts peuvent varier selon les instructions `System.out.println()` présentes dans les classes.
-
-## 9. Gestion des erreurs courantes
-
-- **ClassNotFoundException :** vérifier les noms complets des classes dans `config.txt`.
-- **NoSuchMethodException :** vérifier l'existence du constructeur sans paramètre ou de la méthode setter recherchée.
-- **InstantiationException :** vérifier que la classe peut être instanciée et qu'il ne s'agit pas d'une interface ou d'une classe abstraite.
-- **IllegalAccessException :** vérifier l'accessibilité du constructeur ou de la méthode.
-- **NullPointerException :** vérifier que les objets et les lignes de configuration ont bien été initialisés.
-- **InvocationTargetException :** vérifier si une exception a été déclenchée à l'intérieur de la méthode invoquée.
-
-## 10. Lien avec l'Inversion of Control (IoC)
 
